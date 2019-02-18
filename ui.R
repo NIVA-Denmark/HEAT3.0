@@ -51,19 +51,19 @@ ui <-
             tabPanel("Data", tableOutput("InDatatable")),
             tabPanel("Indicators",
                      fluidRow(
-                       column(6,tableOutput("tblIndicators"))
+                       column(9,tableOutput("tblIndicators"))
                      )
             ),
             tabPanel("Criteria",
                      fluidRow(
-                       column(6,uiOutput("tblCriteriaJS")),
-                       column(2,downloadButton("downloadCriteria", "Download"))
+                       column(8,uiOutput("tblCriteriaJS")),
+                       column(1,downloadButton("downloadCriteria", "Download"))
                      )
             ),
             tabPanel("Overall",
                      fluidRow(
-                       column(6,uiOutput("tblOverallJS")),
-                       column(2,downloadButton("downloadOverall", "Download"))
+                       column(8,uiOutput("tblOverallJS")),
+                       column(1,downloadButton("downloadOverall", "Download"))
                      )
                      )
             
