@@ -38,12 +38,19 @@ ui <-
           
           p("If grouping columns are specified, separate assessments are made for each unique combination of group variables. 
             If no grouping columns are specified, all indicators are combined in a single assessment unit."),
-          p("For each assessment, indicators are aggregated within criteria. The criteria having the highest (worst) Eutrophication Ratio determines the overall assessment result."),
+          p("For each assessment, indicators are aggregated within criteria. The criteria having the highest (worst) Eutrophication Ratio (ER) determines the overall assessment result."),
+          h4("Example data"),
           p("Download example data from Andersen et al. (2017)",HTML("<a href='andersen_et_al_2017_biol_rev.csv' target='_blank'>here</a>.")),
-          p("For more information, see ",HTML("<a href='https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12221' target='_blank'>Andersen et al. (2017)
-                                              <i>Biol. Rev. </i>92, 135–149. doi: 10.1111/brv.12221</a>")),
-            p("or contact:", HTML("<a href='https://niva-denmark.dk' target='_blank'>https://niva-denmark.dk</a>"))
-            )})
+          h4("More information"),
+          p("For more information, see Andersen et al. (2017)"),
+          p(HTML("<a href='https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12221' target='_blank'><i>Biol. Rev. </i>92, 135–149. doi: 10.1111/brv.12221</a>")),
+          p("or contact:", HTML("<a href='https://niva-denmark.dk' target='_blank'>https://niva-denmark.dk</a>")),
+          h4("R code"),
+          p("Download the ", HTML("<a href='HEAT3.0_R-code.zip' target='_blank'>HEAT 3.0 R code</a>."))
+            )
+            })
+          
+          
         ),
 
         mainPanel(
