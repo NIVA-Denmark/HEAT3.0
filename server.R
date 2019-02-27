@@ -8,11 +8,18 @@ source("javascript.R")
 
 shinyServer(function(input, output, session) {
   
+  colsrequired<-c("Criteria",
+                  "Indicator",
+                  "Target",
+                  "Status",
+                  "Response")
+  
   session$onFlushed(function() {
     session$sendCustomMessage(type='jsCode', list(value = script))
   }, FALSE)
   
   showNA = F
+  
   
   # Get the selected column separator character
   sepchar<-reactive({
@@ -61,6 +68,21 @@ shinyServer(function(input, output, session) {
     
     return(df)
   })
+  
+  ErrText<-reactive({
+    filedata()
+    df<-""
+    if(!is.null(filedata())){
+      df<-names(filedata())
+      df<-colsrequired[!colsrequired %in% df]
+      if(length(df)>0){
+        df<-paste(df,collapse=", ")
+        df<-paste0("Missing columns: ",df)
+      }
+      }
+    return(df)
+  })
+  
 
   
   # show the item selection for grouping 
@@ -104,19 +126,19 @@ shinyServer(function(input, output, session) {
   resOverall <- reactive({
     df<-filedata()
     if (is.null(df)){return(NULL)} 
-    out<-Assessment(df,2,group_variables=input$Group,showNA())    #Individual indicator results
+    out<-Assessment(df,2,group_variables=input$Group,showNA())
     return(out)
   })
   resIndicators <- reactive({
     df<-filedata()
     if (is.null(df)){return(NULL)} 
-    out<-Assessment(df,1,group_variables=input$Group)    #Individual indicator results
+    out<-Assessment(df,1,group_variables=input$Group)    
     return(out)
   })
   resCriteria <- reactive({
     df<-filedata()
     if (is.null(df)){return(NULL)} 
-    out<-Assessment(df,3,group_variables=input$Group,showNA())    #Individual indicator results
+    out<-Assessment(df,3,group_variables=input$Group,showNA())   
     return(out)
   })
   
@@ -124,19 +146,54 @@ shinyServer(function(input, output, session) {
     df<-filedata()
     group_variables<-input$Group
     dat<-list(df,group_variables)
-    save(dat,file="test.Rda")
-    #save(group_variables,file="group.Rda")
     if (is.null(df)){return(NULL)} 
-    out<-df #Assessment(df,1)    #Individual indicator results
+    out<-df 
     return(out)
   })
   
   output$InDatatable <- renderTable({return(InData())},na="")
-  output$tblIndicators <- renderTable({return(resIndicators())},na="")
-  output$tblCriteria <- renderTable({return(resCriteria())},na="")
-  output$tblOverall <- renderTable({return(resOverall())},na="")
   
-  output$btnCriteria <- renderUI({
+  
+  output$dataErrors <- renderText({
+    ErrText()
+  })
+  
+  
+  output$tblIndicators <- renderTable({
+    df<-data.frame()
+    Err<-ErrText()
+    if(length(Err)==0){
+      df<-resIndicators()
+    }else if(ErrText()==""){
+      df<-resIndicators()
+    }
+    return(df)
+  },na="")
+  
+    output$tblCriteria <- renderTable({    
+      df<-data.frame()
+      Err<-ErrText()
+      if(length(Err)==0){
+        df<-resCriteria()
+        }else if(ErrText()==""){
+        df<-resCriteria()
+        }
+    return(df)
+    },na="")
+
+    output$tblOverall <- renderTable({    
+      df<-data.frame()
+      Err<-ErrText()
+      if(length(Err)==0){
+        df<-resOverall()
+      }else if(ErrText()==""){
+        df<-resOverall()
+      }
+      return(df)
+    },na="")
+
+  
+    output$btnCriteria <- renderUI({
     
   })
   

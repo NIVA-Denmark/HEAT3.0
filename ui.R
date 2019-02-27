@@ -55,19 +55,31 @@ ui <-
 
         mainPanel(
           tabsetPanel(
-            tabPanel("Data", tableOutput("InDatatable")),
+            tabPanel("Data", 
+                     fluidRow(
+                       column(9,h3(textOutput("dataErrors"), style="color:red"))
+                     ),
+                     fluidRow(
+                       column(9,tableOutput("InDatatable"))
+                       )),
             tabPanel("Indicators",
+                     fluidRow(
+                       column(9,h3(""))),
                      fluidRow(
                        column(9,tableOutput("tblIndicators"))
                      )
             ),
             tabPanel("Criteria",
                      fluidRow(
+                       column(9,h3(""))),
+                     fluidRow(
                        column(8,uiOutput("tblCriteriaJS")),
                        column(1,downloadButton("downloadCriteria", "Download"))
                      )
             ),
             tabPanel("Overall",
+                     fluidRow(
+                       column(9,h3(""))),
                      fluidRow(
                        column(8,uiOutput("tblOverallJS")),
                        column(1,downloadButton("downloadOverall", "Download"))

@@ -185,7 +185,9 @@ Assessment<- function(assessmentdata,summarylevel=1,group_variables="",showblank
         select(-XXXXXXXX)
       QEspr<- QEspr %>% select(-XXXXXXXX)
       OverallQE<- OverallQE %>% select(-XXXXXXXX)
-      Indicators<- Indicators %>% select(-XXXXXXXX)
+      Indicators<- Indicators %>% 
+        ungroup() %>% 
+        select(-XXXXXXXX)
     }
     
     #return(n)
