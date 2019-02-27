@@ -1,13 +1,4 @@
-"Year";"Basin";"Indicator";"Description";"Criteria";"Obs";"Target";"Weight";"Response"
-2000;"Baltic_Proper";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;5.89008552633078;7.7;1;-1
-2000;"Arkona_Basin";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;7.81482075136818;7.2;1;-1
-2000;"Bornholm_Basin";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;6.69208186945251;6.84;1;-1
-2000;"Danish_Straits";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;7.06040730006689;8.03333333333333;1;-1
-2000;"Gulf_of_Finland";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;2.79962419634035;5.5;40;-1
-2000;"Kattegat";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;6.53212925742315;7.6;1;-1
-2000;"Bothnian_Bay";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;3.42863280215841;5.8;20;-1
-2000;"Bothnian_Sea";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;3.8604142578887;6.8;40;-1
-2000;"Gulf_of_Riga";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;3.1301805502005;5;30;-1
+"Year";"Basin";"Indicator";"Description";"Criteria";"Status";"Target";"Weight";"Response"
 2001;"Baltic_Proper";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;5.85409092151808;7.7;1;-1
 2001;"Arkona_Basin";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;8.02867624475017;7.2;1;-1
 2001;"Bornholm_Basin";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;6.97204458103396;6.84;1;-1
@@ -85,15 +76,6 @@
 2009;"Gulf_of_Finland";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;4.66770810991629;5.5;40;-1
 2009;"Bothnian_Bay";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;5.4282561340614;5.8;20;-1
 2009;"Bothnian_Sea";"secchi_summer";"secchi depth summer average (Jun-Sep)";2;6.56770520477353;6.8;40;-1
-2000;"Baltic_Proper";"chl_summer";"chl-a summer average (Jun-Sep)";2;2.96314869487107;1.6;1;1
-2000;"Arkona_Basin";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.6847943716875;1.8;1;1
-2000;"Bornholm_Basin";"chl_summer";"chl-a summer average (Jun-Sep)";2;2.2816500389768;1.8;1;1
-2000;"Danish_Straits";"chl_summer";"chl-a summer average (Jun-Sep)";2;2.58701105242388;1.63333333333333;1;1
-2000;"Gulf_of_Finland";"chl_summer";"chl-a summer average (Jun-Sep)";2;4.74058766433425;2;60;1
-2000;"Kattegat";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.68581485097117;1.5;1;1
-2000;"Bothnian_Bay";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.77623360173308;2;80;1
-2000;"Bothnian_Sea";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.69215534596042;1.5;60;1
-2000;"Gulf_of_Riga";"chl_summer";"chl-a summer average (Jun-Sep)";2;5.99132761903849;2.7;70;1
 2001;"Baltic_Proper";"chl_summer";"chl-a summer average (Jun-Sep)";2;2.70554317257606;1.6;1;1
 2001;"Arkona_Basin";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.89243104180975;1.8;1;1
 2001;"Bornholm_Basin";"chl_summer";"chl-a summer average (Jun-Sep)";2;2.19365471557663;1.8;1;1
@@ -183,9 +165,6 @@
 2012;"Bornholm_Basin";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.67590038331165;1.8;1;1
 2012;"Danish_Straits";"chl_summer";"chl-a summer average (Jun-Sep)";2;1.19123244106163;1.63333333333333;1;1
 2012;"Kattegat";"chl_summer";"chl-a summer average (Jun-Sep)";2;0.557392681830413;1.5;1;1
-2000;"Baltic_Proper";"O2debt";"Oxygen debt";3;9.81038178742802;8.66;1;1
-2000;"Bornholm_Basin";"O2debt";"Oxygen debt";3;7.34243197426964;6.37;1;1
-2000;"Gulf_of_Finland";"O2debt";"Oxygen debt";3;9.81038178742802;8.66;1;1
 2001;"Baltic_Proper";"O2debt";"Oxygen debt";3;10.2911665104102;8.66;1;1
 2001;"Bornholm_Basin";"O2debt";"Oxygen debt";3;7.22666759632923;6.37;1;1
 2001;"Gulf_of_Finland";"O2debt";"Oxygen debt";3;10.2911665104102;8.66;1;1
@@ -222,15 +201,6 @@
 2012;"Baltic_Proper";"O2debt";"Oxygen debt";3;11.1911022789465;8.66;1;1
 2012;"Bornholm_Basin";"O2debt";"Oxygen debt";3;6.5292966323022;6.37;1;1
 2012;"Gulf_of_Finland";"O2debt";"Oxygen debt";3;11.1911022789465;8.66;1;1
-2000;"Baltic_Proper";"din_winter";"DIN winter average (Dec-Feb)";1;4.35308696978355;2.5;1;1
-2000;"Arkona_Basin";"din_winter";"DIN winter average (Dec-Feb)";1;5.3295476196467;2.9;1;1
-2000;"Bornholm_Basin";"din_winter";"DIN winter average (Dec-Feb)";1;4.61150045036723;2.5;1;1
-2000;"Danish_Straits";"din_winter";"DIN winter average (Dec-Feb)";1;9.18650279820042;4.6;1;1
-2000;"Gulf_of_Finland";"din_winter";"DIN winter average (Dec-Feb)";1;8.77070261826369;3.8;1;1
-2000;"Kattegat";"din_winter";"DIN winter average (Dec-Feb)";1;7.39333663976861;5;1;1
-2000;"Bothnian_Bay";"din_winter";"DIN winter average (Dec-Feb)";1;7.52326537348486;5.2;33;1
-2000;"Bothnian_Sea";"din_winter";"DIN winter average (Dec-Feb)";1;3.93015575751947;2.8;1;1
-2000;"Gulf_of_Riga";"din_winter";"DIN winter average (Dec-Feb)";1;9.56848615942653;5.2;1;1
 2001;"Baltic_Proper";"din_winter";"DIN winter average (Dec-Feb)";1;3.86442291749557;2.5;1;1
 2001;"Arkona_Basin";"din_winter";"DIN winter average (Dec-Feb)";1;3.94045644246486;2.9;1;1
 2001;"Bornholm_Basin";"din_winter";"DIN winter average (Dec-Feb)";1;3.75258563662933;2.5;1;1
@@ -335,15 +305,6 @@
 2012;"Gulf_of_Finland";"din_winter";"DIN winter average (Dec-Feb)";1;9.38022103379531;3.8;1;1
 2012;"Kattegat";"din_winter";"DIN winter average (Dec-Feb)";1;6.37057610477995;5;1;1
 2012;"Bothnian_Sea";"din_winter";"DIN winter average (Dec-Feb)";1;3.63798738251292;2.8;1;1
-2000;"Baltic_Proper";"dip_winter";"DIP winter average (Dec-Feb)";1;0.569676690132538;0.29;1;1
-2000;"Arkona_Basin";"dip_winter";"DIP winter average (Dec-Feb)";1;0.585319876243244;0.36;1;1
-2000;"Bornholm_Basin";"dip_winter";"DIP winter average (Dec-Feb)";1;0.610420059711804;0.3;1;1
-2000;"Danish_Straits";"dip_winter";"DIP winter average (Dec-Feb)";1;0.650475045978511;0.526666666666667;1;1
-2000;"Gulf_of_Finland";"dip_winter";"DIP winter average (Dec-Feb)";1;0.990316725286634;0.65;1;1
-2000;"Kattegat";"dip_winter";"DIP winter average (Dec-Feb)";1;0.515235425846478;0.49;1;1
-2000;"Bothnian_Bay";"dip_winter";"DIP winter average (Dec-Feb)";1;0.0600007752178585;0.07;67;1
-2000;"Bothnian_Sea";"dip_winter";"DIP winter average (Dec-Feb)";1;0.215357777728201;0.19;1;1
-2000;"Gulf_of_Riga";"dip_winter";"DIP winter average (Dec-Feb)";1;0.987647708715624;0.41;1;1
 2001;"Baltic_Proper";"dip_winter";"DIP winter average (Dec-Feb)";1;0.343640085816384;0.29;1;1
 2001;"Arkona_Basin";"dip_winter";"DIP winter average (Dec-Feb)";1;0.618315359084248;0.36;1;1
 2001;"Bornholm_Basin";"dip_winter";"DIP winter average (Dec-Feb)";1;0.596560997292793;0.3;1;1
@@ -448,7 +409,6 @@
 2012;"Gulf_of_Finland";"dip_winter";"DIP winter average (Dec-Feb)";1;1.02488251256692;0.65;1;1
 2012;"Kattegat";"dip_winter";"DIP winter average (Dec-Feb)";1;0.477670933996446;0.49;1;1
 2012;"Bothnian_Sea";"dip_winter";"DIP winter average (Dec-Feb)";1;0.286282079269968;0.19;1;1
-2000;"Kattegat";"DKI";"Benthic fauna index";3;0.66;0.68;1;-1
 2001;"Kattegat";"DKI";"Benthic fauna index";3;0.728;0.68;1;-1
 2002;"Kattegat";"DKI";"Benthic fauna index";3;0.695;0.68;1;-1
 2003;"Kattegat";"DKI";"Benthic fauna index";3;0.692;0.68;1;-1
@@ -459,7 +419,6 @@
 2008;"Kattegat";"DKI";"Benthic fauna index";3;0.694;0.68;1;-1
 2010;"Kattegat";"DKI";"Benthic fauna index";3;0.775;0.68;1;-1
 2011;"Kattegat";"DKI";"Benthic fauna index";3;0.709;0.68;1;-1
-2000;"Danish_Straits";"DKI";"Benthic fauna index";3;0.647;0.68;1;-1
 2001;"Danish_Straits";"DKI";"Benthic fauna index";3;0.603;0.68;1;-1
 2002;"Danish_Straits";"DKI";"Benthic fauna index";3;0.599;0.68;1;-1
 2003;"Danish_Straits";"DKI";"Benthic fauna index";3;0.601;0.68;1;-1
@@ -470,7 +429,6 @@
 2008;"Danish_Straits";"DKI";"Benthic fauna index";3;0.748;0.68;1;-1
 2010;"Danish_Straits";"DKI";"Benthic fauna index";3;0.8;0.68;1;-1
 2011;"Danish_Straits";"DKI";"Benthic fauna index";3;0.846;0.68;1;-1
-2000;"Arkona_Basin";"DKI";"Benthic fauna index";3;0;0.68;1;-1
 2001;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.64;0.68;1;-1
 2002;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.639;0.68;1;-1
 2003;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.566;0.68;1;-1
@@ -480,7 +438,6 @@
 2007;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.474;0.68;1;-1
 2008;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.473;0.68;1;-1
 2011;"Arkona_Basin";"DKI";"Benthic fauna index";3;0.668;0.68;1;-1
-2000;"Bothnian_Bay";"DKI";"Benthic fauna index";3;1.57142857142857;1.37;1;-1
 2001;"Bothnian_Bay";"DKI";"Benthic fauna index";3;1.66666666666667;1.37;1;-1
 2002;"Bothnian_Bay";"DKI";"Benthic fauna index";3;1.4;1.37;1;-1
 2003;"Bothnian_Bay";"DKI";"Benthic fauna index";3;1.6;1.37;1;-1
@@ -492,7 +449,6 @@
 2009;"Bothnian_Bay";"DKI";"Benthic fauna index";3;2;1.37;1;-1
 2010;"Bothnian_Bay";"DKI";"Benthic fauna index";3;1.33333333333333;1.37;1;-1
 2011;"Bothnian_Bay";"DKI";"Benthic fauna index";3;2;1.37;1;-1
-2000;"Bothnian_Sea";"DKI";"Benthic fauna index";3;2.375;2.11;1;-1
 2001;"Bothnian_Sea";"DKI";"Benthic fauna index";3;2.28571428571429;2.11;1;-1
 2002;"Bothnian_Sea";"DKI";"Benthic fauna index";3;2.66666666666667;2.11;1;-1
 2003;"Bothnian_Sea";"DKI";"Benthic fauna index";3;2.33333333333333;2.11;1;-1
@@ -504,7 +460,6 @@
 2009;"Bothnian_Sea";"DKI";"Benthic fauna index";3;4.25;2.98;1;-1
 2010;"Bothnian_Sea";"DKI";"Benthic fauna index";3;4.16666666666667;2.98;1;-1
 2011;"Bothnian_Sea";"DKI";"Benthic fauna index";3;4.16666666666667;2.98;1;-1
-2000;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;2.66666666666667;3.91;1;-1
 2001;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;3;3.91;1;-1
 2002;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;2.33333333333333;3.91;1;-1
 2003;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;1.71428571428571;3.91;1;-1
@@ -516,14 +471,12 @@
 2009;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;2.17647058823529;3.91;1;-1
 2010;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;2.08333333333333;3.91;1;-1
 2011;"Gulf_of_Finland";"DKI";"Benthic fauna index";3;2.36363636363636;3.91;1;-1
-2000;"Baltic_Proper";"DKI";"Benthic fauna index";3;1;5.25;1;-1
 2001;"Baltic_Proper";"DKI";"Benthic fauna index";3;1;5.25;1;-1
 2002;"Baltic_Proper";"DKI";"Benthic fauna index";3;2;5.25;1;-1
 2003;"Baltic_Proper";"DKI";"Benthic fauna index";3;2;5.25;1;-1
 2004;"Baltic_Proper";"DKI";"Benthic fauna index";3;3;5.25;1;-1
 2005;"Baltic_Proper";"DKI";"Benthic fauna index";3;1;5.25;1;-1
 2006;"Baltic_Proper";"DKI";"Benthic fauna index";3;3.5;5.25;1;-1
-2000;"Bornholm_Basin";"DKI";"Benthic fauna index";3;1.85714285714286;7.2;1;-1
 2001;"Bornholm_Basin";"DKI";"Benthic fauna index";3;3.75;7.2;1;-1
 2002;"Bornholm_Basin";"DKI";"Benthic fauna index";3;4.75;7.2;1;-1
 2004;"Bornholm_Basin";"DKI";"Benthic fauna index";3;1.66666666666667;7.2;1;-1
