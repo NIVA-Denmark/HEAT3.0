@@ -43,11 +43,11 @@ Assessment<- function(assessmentdata,summarylevel=1,group_variables="",showblank
       group_variables=c("XXXXXXXX")
       df$XXXXXXXX<-1
   }
-
+  if(!is.null(group_variables)){
   for(gv in group_variables){
     df[,gv] <- factor(df[,gv], levels=unique(df[,gv]))
   }
-
+}
   requiredcols <- c("Criteria","Indicator","Target","Status")
   confcols<-c("Conf_Status","Conf_Target")
   extracols <- c("Weight")
