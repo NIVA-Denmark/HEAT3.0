@@ -47,20 +47,8 @@ ui <-
             " Eutrophication Ratio (ER) determines the overall assessment result."),
           h4("Confidence"),
           p("If both columns", HTML("<b>Conf_Target</b>"), " and ",HTML("<b>Conf_Status</b>"), " are present,",
-            " then a confidence assessment will be made, in addition to the primary status assessment. ", 
-            "For more information on the confidence assessment method, see Fleming-Lehtinen et al. (2015)"),           
-          
-          h4("Example data"),
-          p("Example data from Fleming-Lehtinen et al. (2015) includes Confidence assessment. Download it",HTML("<a href='Fleming-Lehtinen_et_al_2015_ecol_ind.csv' target='_blank'>here</a>."),
-          "Download example data from Andersen et al. (2017)",HTML("<a href='andersen_et_al_2017_biol_rev.csv' target='_blank'>here</a>.")),
-          h4("More information"),
-          p(HTML("Andersen et al. (2017) <i>Biol. Rev. </i>92, 135–149.<br>"),
-            HTML("<a href='https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12221' target='_blank'>doi: 10.1111/brv.12221</a>")),
-          p(HTML("Fleming-Lehtinen et al. (2015) <i>Ecol. Indic. </i>48 , pp. 380-388.<br>"),
-            HTML("<a href='https://doi.org/10.1016/j.ecolind.2014.08.022' target='_blank'>doi: 10.1016/j.ecolind.2014.08.022</a>")),
-          h4("R code"),
-          p("Download the ", HTML("<a href='HEAT3.0_R-code.zip' target='_blank'>HEAT 3.0 R code</a>."))
-            )
+            " then a confidence assessment will be made, in addition to the primary status assessment. ") )
+            
             })
           
           
