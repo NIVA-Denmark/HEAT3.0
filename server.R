@@ -14,6 +14,9 @@ shinyServer(function(input, output, session) {
                   "Status",
                   "Response")
   
+  colsrestricted<-c(colsrequired,"Weight") # these should not be used for grouping the data!
+  
+  
   session$onFlushed(function() {
     session$sendCustomMessage(type='jsCode', list(value = script))
   }, FALSE)
@@ -63,7 +66,7 @@ shinyServer(function(input, output, session) {
     df<-""
       if(!is.null(filedata())){
         df<-names(filedata())
-        
+        df<-df[!df %in% colsrestricted]
       }
     
     return(df)
