@@ -32,11 +32,11 @@ ui <-
           ),
           p("The following columns are optional:"),
           ul(
-            li(HTML("<b>Weight</b>"," : value, relative weight assigned to indicator within Criteria group")),
             li(HTML("<i>grouping columns e.g. Waterbody ID</i>"),
-            li(HTML("<b>Conf_Target</b>"," : Condidence rating for Target value"), 
+            li(HTML("<b>Weight</b>"," : value, relative weight assigned to indicator within Criteria group")),
+            li(HTML("<b>Conf_Target</b>"," : Confidence rating for Target value"), 
                HTML("(<b>L</b>ow, <b>M</b>edium, <i>or</i> <b>H</b>igh.)")),
-            li(HTML("<b>Conf_Status</b>"," : Condidence rating for Status value"), 
+            li(HTML("<b>Conf_Status</b>"," : Confidence rating for Status value"), 
                HTML("(<b>L</b>ow, <b>M</b>edium, <i>or</i> <b>H</b>igh.)"))
             )
           ),
