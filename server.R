@@ -57,7 +57,6 @@ shinyServer(function(input, output, session) {
       dfencode<-guess_encoding(infile$datapath,n_max=-1)
       filedata<-read.table(infile$datapath, sep=sepchar(),
                            encoding=dfencode$encoding[1], header=T, stringsAsFactors=F)
-      
       return(filedata)
     }
   })
@@ -71,6 +70,8 @@ shinyServer(function(input, output, session) {
     
     return(df)
   })
+  
+  
   
   ErrText<-reactive({
     filedata()
@@ -174,6 +175,7 @@ shinyServer(function(input, output, session) {
   },na="")
   
     output$tblCriteria <- renderTable({    
+      
       df<-data.frame()
       Err<-ErrText()
       if(length(Err)==0){

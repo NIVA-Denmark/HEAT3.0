@@ -1,0 +1,74 @@
+Basin;Criteria;Indicator;Target;Unit;Response;Conf_Target;Status;Conf_Status;Weight
+Kattegat;C1;DIN (Dec-Feb);5;µM;+;M;5.724;H;0.5
+Kattegat;C1;DIP (Dec-Feb);0.49;µM;+;M;0.541;H;0.5
+Kattegat;C2;Chlorophyll a (June-Sept);1.5;µg/l;+;L;1.434489188;H;0.5
+Kattegat;C2;Secchi depth (June-Sept);7.6;m;-;H;7.9;H;0.5
+The Sound;C1;DIN (Dec-Feb);3.3;µM;+;M;4.419;H;0.5
+The Sound;C1;DIP (Dec-Feb);0.42;µM;+;M;0.638;H;0.5
+The Sound;C2;Chlorophyll a (June-Sept);1.2;µg/l;+;M;1.817708333;L;0.5
+The Sound;C2;Secchi depth (June-Sept);8.2;m;-;H;7.3;H;0.5
+Great Belt;C1;DIN (Dec-Feb);5;µM;+;M;6.484;H;0.5
+Great Belt;C1;DIP (Dec-Feb);0.59;µM;+;M;0.695;H;0.5
+Great Belt;C2;Chlorophyll a (June-Sept);1.7;µg/l;+;M;2.741825;M;0.5
+Great Belt;C2;Secchi depth (June-Sept);8.5;m;-;H;6.4;H;0.5
+Kiel Bay;C1;DIN (Dec-Feb);5.5;µM;+;M;6.927;H;0.5
+Kiel Bay;C1;DIP (Dec-Feb);0.57;µM;+;M;0.699;H;0.5
+Kiel Bay;C2;Chlorophyll a (June-Sept);2;µg/l;+;M;2.349700881;M;0.5
+Kiel Bay;C2;Secchi depth (June-Sept);7.4;m;-;H;5.9;H;0.5
+Bay of Mecklenburg;C1;DIN (Dec-Feb);4.3;µM;+;M;5.674;H;0.5
+Bay of Mecklenburg;C1;DIP (Dec-Feb);0.49;µM;+;M;0.611;H;0.5
+Bay of Mecklenburg;C2;Chlorophyll a (June-Sept);1.8;µg/l;+;M;2.435931612;H;0.5
+Bay of Mecklenburg;C2;Secchi depth (June-Sept);7.1;m;-;H;4.9;M;0.5
+Gdansk Basin;C1;DIN (Dec-Feb);4.2;µM;+;M;5.005;H;0.5
+Gdansk Basin;C1;DIP (Dec-Feb);0.36;µM;+;M;0.614;H;0.5
+Gdansk Basin;C2;Chlorophyll a (June-Sept);2.2;µg/l;+;M;4.038904762;M;0.5
+Gdansk Basin;C2;Secchi depth (June-Sept);6.5;m;-;H;5.2;M;0.5
+ Arkona Sea;C1;DIN (Dec-Feb);2.9;µM;+;M;3.728;H;0.5
+ Arkona Sea;C1;DIP (Dec-Feb);0.36;µM;+;M;0.619;H;0.5
+ Arkona Sea;C2;Chlorophyll a (June-Sept);1.8;µg/l;+;M;2.659512657;H;0.5
+ Arkona Sea;C2;Secchi depth (June-Sept);7.2;m;-;H;5.8;M;0.5
+Bornholm Sea;C1;DIN (Dec-Feb);2.5;µM;+;M;2.965;H;0.5
+Bornholm Sea;C1;DIP (Dec-Feb);0.3;µM;+;M;0.607;H;0.5
+Bornholm Sea;C2;Chlorophyll a (June-Sept);1.8;µg/l;+;M;3.720342122;H;0.5
+Bornholm Sea;C2;Secchi depth (June-Sept);7.1;m;-;H;5.6;H;0.5
+Bornholm Sea;C3;Oxygen debt;6.37;mg/l;+;H;7.104;H;1
+E Gotland Basin;C1;DIN (Dec-Feb);2.6;µM;+;M;3.435;H;0.5
+E Gotland Basin;C1;DIP (Dec-Feb);0.29;µM;+;M;0.538;H;0.5
+E Gotland Basin;C2;Chlorophyll a (June-Sept);1.9;µg/l;+;M;3.261806408;H;0.5
+E Gotland Basin;C2;Secchi depth (June-Sept);7.6;m;-;H;6;H;0.5
+E Gotland Basin;C3;Oxygen debt;8.66;mg/l;+;H;10.54;H;1
+W Gotland Basin;C1;DIN (Dec-Feb);2;µM;+;M;2.824;H;0.5
+W Gotland Basin;C1;DIP (Dec-Feb);0.33;µM;+;M;0.581;H;0.5
+W Gotland Basin;C2;Chlorophyll a (June-Sept);1.2;µg/l;+;M;2.817737374;M;0.5
+W Gotland Basin;C2;Secchi depth (June-Sept);8.4;m;-;H;5.7;L;0.5
+W Gotland Basin;C3;Oxygen debt;8.66;mg/l;+;H;10.542;H;1
+N Baltic Proper;C1;DIN (Dec-Feb);2.9;µM;+;M;3.751;H;0.5
+N Baltic Proper;C1;DIP (Dec-Feb);0.25;µM;+;M;0.498;H;0.5
+N Baltic Proper;C2;Chlorophyll a (June-Sept);1.65;µg/l;+;M;2.792307321;H;0.5
+N Baltic Proper;C2;Secchi depth (June-Sept);7.1;m;-;H;5.5;H;0.5
+N Baltic Proper;C3;Oxygen debt;8.66;mg/l;+;H;10.54;H;1
+Gulf of Riga;C1;DIN (Dec-Feb);5.2;µM;+;M;4.857;H;0.333
+Gulf of Riga;C1;DIP (Dec-Feb);0.41;µM;+;M;0.633;H;0.666999996
+Gulf of Riga;C2;Chlorophyll a (June-Sept);2.7;µg/l;+;M;2.45046875;L;0.7
+Gulf of Riga;C2;Secchi depth (June-Sept);5;m;-;M;4;L;0.299999952
+Gulf of Finland;C1;DIN (Dec-Feb);3.8;µM;+;M;7.873;H;0.5
+Gulf of Finland;C1;DIP (Dec-Feb);0.59;µM;+;M;0.849;H;0.5
+Gulf of Finland;C2;Chlorophyll a (June-Sept);2;µg/l;+;M;3.046791375;L;0.6
+Gulf of Finland;C2;Secchi depth (June-Sept);5.5;m;-;H;4.8;M;0.399999976
+Gulf of Finland;C3;Oxygen debt;8.66;mg/l;+;H;10.542;H;1
+Åland Sea;C1;DIN (Dec-Feb);2.7;µM;+;M;3.538;H;0.5
+Åland Sea;C1;DIP (Dec-Feb);0.21;µM;+;M;0.366;H;0.5
+Åland Sea;C2;Chlorophyll a (June-Sept);1.5;µg/l;+;M;3.03;L;0.5
+Åland Sea;C2;Secchi depth (June-Sept);6.9;m;-;H;5.4;L;0.5
+Bothnian Sea;C1;DIN (Dec-Feb);2.8;µM;+;M;3.67;H;0.5
+Bothnian Sea;C1;DIP (Dec-Feb);0.19;µM;+;M;0.261;H;0.5
+Bothnian Sea;C2;Chlorophyll a (June-Sept);1.5;µg/l;+;M;2.4925;L;0.6
+Bothnian Sea;C2;Secchi depth (June-Sept);6.8;m;-;H;6.5;M;0.399999976
+Quark;C1;DIN (Dec-Feb);3.7;µM;+;M;5.279;H;0.5
+Quark;C1;DIP (Dec-Feb);0.1;µM;+;M;0.089;H;0.5
+Quark;C2;Chlorophyll a (June-Sept);2;µg/l;+;M;2.34;L;0.7
+Quark;C2;Secchi depth (June-Sept);6;m;-;H;5.9;L;0.300000012
+Bothnian Bay;C1;DIN (Dec-Feb);5.2;µM;+;M;6.825;H;0.333
+Bothnian Bay;C1;DIP (Dec-Feb);0.07;µM;+;M;0.045;H;0.666999996
+Bothnian Bay;C2;Chlorophyll a (June-Sept);2;µg/l;+;M;2.345666667;L;0.8
+Bothnian Bay;C2;Secchi depth (June-Sept);5.8;m;-;H;5.8;M;0.200000048
